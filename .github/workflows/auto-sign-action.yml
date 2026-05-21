@@ -4,10 +4,11 @@
 name: auto-sign
 
 on:
-  push:
-    branches: [ master ]
-  schedule:
-    - cron: 30,0,57,27 16 * * *
+  workflow_dispatch:         # 保留手动触发，可选
+  # push:
+  #   branches: [ master ]
+  # schedule:
+  #   - cron: 30,0,57,27 16 * * *
  # watch:
  #   types: started
 
