@@ -29,7 +29,7 @@ jobs:
       with:
         java-version: '11'
         distribution: 'temurin'
-        cache: 'maven'
+        # cache: 'maven'
         
 
     # 缓存 pip 依赖，使用最新 actions/cache@v4
